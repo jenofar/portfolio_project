@@ -1,0 +1,254 @@
+html{
+    background-color: rgb(175, 169, 169);
+    height: 100%;
+}
+
+ #navbar{
+    overflow: hidden;
+    margin: 0;
+    margin-left: 0;
+    list-style-type: none;
+    background-color: #3b3838;
+    padding: 5px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+ }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(87, 82, 82);
+  }
+  #home{
+    height: 40rem;
+    background-image: url(./images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #home p{
+   font-size: 4rem;
+   padding-left: 2rem;
+  }
+  #Aboutme_table{
+      width: 100%;
+  }
+  #about h1{
+    color: rgb(223, 213, 213);
+    text-align: center;
+    font-size:xx-large;
+    border: #3b3838 2px solid;
+    background-color: rgb(44, 41, 41);
+   }
+  #Aboutme_table td{
+         width: 50%;
+ }
+ #About_div2{
+   padding-left: 4rem;
+ }
+ #About_head{
+   font-size:xx-large;
+   color: #c28383;
+ }
+ #About_div1{
+  padding-right: 5rem;
+  padding-left: 3rem;
+  color: rgb(211, 209, 204)
+ }
+ #about_row2{
+   background-color: #3d3333;
+ }
+ button{
+   background-color: #3d3333;
+   border: 2px solid black;
+   color: #c28383;
+   width: max-content;
+ }
+ #youtube{
+   padding-top: 20px;
+ }
+ #skills table{
+   width:100%;
+   color: rgb(12, 12, 12);
+   height: 30rem;
+ }
+ #skills table td{
+   width:50%;
+   padding-left: 20px;
+   padding-right: 20px;
+ } 
+ #skills h1{
+  color: rgb(223, 213, 213);
+  text-align: center;
+  font-size:xx-large;
+  border: #3b3838 2px solid;
+  background-color: rgb(44, 41, 41);
+ }
+ 
+  #project h1{
+    color: rgb(223, 213, 213);
+    text-align: center;
+    font-size:xx-large;
+    border: #3b3838 2px solid;
+    background-color: rgb(44, 41, 41);
+   }
+   #prj_table{
+       width: 100%;
+   }
+   #prj_table tr{
+     height: 20rem;
+    
+   }
+   #project_1:hover{
+     background-image: url(./images/ball1.webp);
+   }
+   #project_1:hover img{
+     opacity: 0;
+   }
+   #project_2:hover{
+    background-image: url(./images/3balls.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #project_2:hover img{
+    opacity: 0;
+  }
+  #project_3:hover{
+    background-image: url(./images/packman_simulation.webp);
+    background-size: cover;
+  }
+  #project_3:hover img{
+    opacity: 0;
+  }
+  #project_4:hover{
+    background-image: url(./images/employee.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #project_4:hover img{
+    opacity: 0;
+  }
+  #project_5:hover{
+    background-image: url(./images/wordcount.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #project_5:hover img{
+    opacity: 0;
+  }
+  #project_6:hover{
+    background-image: url(./images/pacmen-google-chrome-2022-01-04.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #project_6:hover img{
+    opacity: 0;
+  }
+  #project_7:hover{
+    background-image: url(./images/eye-looking-around.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  #project_7:hover img{
+    opacity: 0;
+  }
+  #project_8:hover{
+    background-image: url(./images/map_ani.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #project_8:hover img{
+    opacity: 0;
+  }
+  #project_9:hover{
+    background-image: url(./images/c0163425-be46-4869-b182-865969bc6dee_tower-of-hanoi.webp);
+    background-repeat: no-repeat;
+    background-size: 30rem;
+  }
+  #project_9:hover img{
+    opacity: 0;
+  }
+  #contact th{
+    font-size: 2rem;
+  } 
+  #contact h1{
+    color: rgb(223, 213, 213);
+    text-align: center;
+    font-size:xx-large;
+    border: #3b3838 2px solid;
+    background-color: rgb(44, 41, 41);
+   }
+   #contact_1{
+     width: 25%;
+     text-align: center;
+     padding-left: 2rem;
+
+   }
+  .right-side{
+    width:75%;
+  }
+  .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+  }
+  .right-side .input-box{
+    height:50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background:#e6e0e0;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .right-side .button input[type="button"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #21163f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="button"]:hover{
+   background: #21163f;
+  }
+  
+  
+  
+  
+  
+  
+    
