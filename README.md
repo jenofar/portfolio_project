@@ -1,4 +1,4 @@
-# portfolio_project
+# Portfolio_Project
 A set of project proposals, projects, programs, sub-portfolios and operations managed together to achieve an organisation's strategic objectives.
 
 Portfolio is a site made by HTML, CSS and Bootstrap
